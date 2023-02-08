@@ -1,0 +1,21 @@
+.header {
+    padding: 10px;
+    box-sizing: border-box;
+
+    &__arrows {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &__prev, &__next {
+            font-size: 20px;
+            opacity: 0.5;
+
+            cursor: pointer;
+
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+}
