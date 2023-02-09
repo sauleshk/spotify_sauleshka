@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   color: white;
-  font-family: "Circular" ;
+  font-family: "Circular", sans-serif;
 }
 
 .App {
@@ -10,6 +10,10 @@
 
   min-height: 100vh;
   width: 100vw;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 @font-face {
